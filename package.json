@@ -9,7 +9,8 @@
     "test": "echo 'hello world'",
     "once": "node -r ts-node/register ./src/main.ts",
     "commit": "git-cz",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "main": "dist/main.js",
   "repository": {
@@ -29,11 +30,12 @@
     "introvertuous-configurations": "^1.6.0",
     "prettier": "^1.10.2",
     "rimraf": "^2.6.2",
+    "semantic-release": "^15.13.3",
+    "travis-deploy-once": "^5.0.11",
     "ts-node": "^6.0.5",
     "tslint": "^5.10.0",
     "tslint-config-prettier": "^1.13.0",
-    "typescript": "^3.1.6",
-    "semantic-release": "^15.13.3"
+    "typescript": "^3.1.6"
   },
   "dependencies": {
     "commander": "^2.16.0",
