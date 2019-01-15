@@ -1,0 +1,8 @@
+*
+!dist/
+!dist/*
+!dist/**/*
+!package.json
+!yarn.lock
+!*.md
+!LISCENSE
