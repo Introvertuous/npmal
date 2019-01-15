@@ -1,7 +1,7 @@
 {
-  "name": "npm-snag",
+  "name": "npmal",
   "version": "0.0.0-development",
-  "description": "CLI for grabbing npmjs names.",
+  "description": "CLI for npm utilities.",
   "bin": "./dist/src/main.js",
   "preferGlobal": true,
   "scripts": {
@@ -14,13 +14,13 @@
   "main": "dist/main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Introvertuous/npm-snag"
+    "url": "https://github.com/Introvertuous/npmal"
   },
   "author": "Chris Ryan",
   "bugs": {
-    "url": "https://github.com/Introvertuous/npm-snag/issues"
+    "url": "https://github.com/Introvertuous/npmal/issues"
   },
-  "homepage": "https://github.com/Introvertuous/npm-snag#README",
+  "homepage": "https://github.com/Introvertuous/npmal#README",
   "devDependencies": {
     "@types/commander": "^2.12.2",
     "@types/node": "^9.4.0",
