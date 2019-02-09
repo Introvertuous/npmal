@@ -2,7 +2,9 @@
   "name": "npmal",
   "version": "0.0.0-development",
   "description": "CLI for npm utilities.",
-  "bin": "./dist/src/main.js",
+  "bin": {
+    "gital": "./dist/main.js"
+  },
   "preferGlobal": true,
   "scripts": {
     "build": "rimraf dist && tsc",
