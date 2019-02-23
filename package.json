@@ -3,7 +3,7 @@
   "version": "0.0.0-development",
   "description": "CLI for npm utilities.",
   "bin": {
-    "gital": "./dist/main.js"
+    "npmal": "./dist/main.js"
   },
   "preferGlobal": true,
   "scripts": {
